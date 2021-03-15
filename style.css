@@ -5,7 +5,6 @@ body{
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
-	background: #FBEEC1;
 }
 section{
 	width: 100%;
@@ -24,8 +23,8 @@ h1{
 .previous{
 	height: 26%;
 	width: 100%;
-	background:#BC986A; 
-	color: black;
+	background-image: url('new.png');
+	border-color: black;
 	border-style: solid;
 	padding: 2px;
 	border-radius: 100px;
@@ -34,7 +33,7 @@ h1{
 }
 .today{
 	height: 70%;
-	color: 	black;
+	border-color: black;
 	background: #659DBD	;
 	border-style: solid;
 	border-radius: 30px;
@@ -45,7 +44,7 @@ h1{
 	float: right;
 	width: 50%;
 	height: 70%;
-	color: 	black;
+	border-color: black;
 	background: #659DBD	;
 	border-style: solid;
 	border-radius: 30px;
@@ -59,6 +58,7 @@ h1{
 	position: "center";
 }
 .button {
+  text-decoration-color: #f2f2f2;	
   display: inline-block;
   padding: 5px 10px;
   font-size: 20px;
@@ -66,17 +66,16 @@ h1{
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: solid black;
-  background-color: #4CAF50;
+  background-color: #8D8712;
   border: none;
   border-radius: 15px;
   box-shadow: 0 2px #999;
 }
 
-.button:hover {background-color: #8D8712}
+.button:hover {background-color: #F05837}
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #fffdd0;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -101,7 +100,6 @@ h1{
 	max-width: 360px;
 	padding: 45px;
 	text-align: center;
-	background: #659DBD;
 
 }
 .form input{
@@ -129,3 +127,21 @@ width: 50%;
 	width: 50%;
 
 }
+body {
+  		background-image: url('new.png');
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;  
+  		background-size: cover;
+	}	
+	#formid{
+  		background-image: url('new.png');
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;  
+  		background-size: cover;
+	}	
+	#todayID, #outputID{
+		background-image: url('new.png');
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;  
+  		background-size: cover;
+	}
