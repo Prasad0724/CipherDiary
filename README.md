@@ -1,2 +1,2 @@
-# EncryptedDiary
+# CiherDiary
 Diary Page
